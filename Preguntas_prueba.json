@@ -1,0 +1,80 @@
+{
+  "OPS II": [
+    {
+      "id": "p1",
+      "pregunta": "¿Cuál es la principal función del sistema respiratorio?",
+      "opciones": {
+        "a": "Regular la temperatura corporal",
+        "b": "Transportar nutrientes a las células",
+        "c": "Permitir el intercambio de gases",
+        "d": "Filtrar desechos del cuerpo"
+      },
+      "correcta": "c",
+      "justificacion": "El sistema respiratorio permite el intercambio de oxígeno y dióxido de carbono entre el cuerpo y el ambiente."
+    },
+    {
+      "id": "p2",
+      "pregunta": "¿Qué estructura del sistema respiratorio se encarga del intercambio gaseoso?",
+      "opciones": {
+        "a": "Tráquea",
+        "b": "Bronquios",
+        "c": "Alvéolos",
+        "d": "Laringe"
+      },
+      "correcta": "c",
+      "justificacion": "Los alvéolos son los responsables del intercambio de oxígeno y dióxido de carbono con la sangre."
+    }
+  ],
+  "Biomateriales I": [
+    {
+      "id": "p11",
+      "pregunta": "¿Cuál de los siguientes materiales es más comúnmente utilizado en prótesis de cadera?",
+      "opciones": {
+        "a": "Acero inoxidable",
+        "b": "Titanio",
+        "c": "Cobre",
+        "d": "Plomo"
+      },
+      "correcta": "b",
+      "justificacion": "El titanio es ampliamente utilizado por su biocompatibilidad, resistencia y ligereza."
+    },
+    {
+      "id": "p12",
+      "pregunta": "¿Qué propiedad es más importante en un biomaterial utilizado para válvulas cardíacas?",
+      "opciones": {
+        "a": "Conductividad eléctrica",
+        "b": "Resistencia al desgaste",
+        "c": "Biocompatibilidad",
+        "d": "Magnetismo"
+      },
+      "correcta": "c",
+      "justificacion": "La biocompatibilidad es esencial para evitar el rechazo del implante por parte del cuerpo."
+    }
+  ],
+  "Fisiología I": [
+    {
+      "id": "p21",
+      "pregunta": "¿Qué órgano produce insulina?",
+      "opciones": {
+        "a": "Hígado",
+        "b": "Páncreas",
+        "c": "Riñón",
+        "d": "Intestino delgado"
+      },
+      "correcta": "b",
+      "justificacion": "El páncreas produce insulina, una hormona crucial para la regulación de la glucosa en sangre."
+    },
+    {
+      "id": "p22",
+      "pregunta": "¿Cuál es la función principal de los glóbulos rojos?",
+      "opciones": {
+        "a": "Defender al cuerpo de infecciones",
+        "b": "Transportar oxígeno",
+        "c": "Coagular la sangre",
+        "d": "Producción hormonal"
+      },
+      "correcta": "b",
+      "justificacion": "Los glóbulos rojos transportan oxígeno desde los pulmones hacia los tejidos del cuerpo."
+    }
+  ]
+}
