@@ -1,0 +1,281 @@
+{
+  "OPS II": [
+    {
+      "id": "p1",
+      "pregunta": "¿Qué representa el número de Mach en dinámica de fluidos?",
+      "opciones": {
+        "a": "La relación entre la velocidad del sonido y la velocidad de la luz",
+        "b": "La relación entre la presión y la densidad del fluido",
+        "c": "La relación entre la velocidad del objeto y la velocidad del sonido",
+        "d": "Una medida de viscosidad del fluido"
+      },
+      "correcta": "c",
+      "justificacion": "El número de Mach compara la velocidad del objeto con la velocidad del sonido en el medio."
+    },
+    {
+      "id": "p2",
+      "pregunta": "¿Cuál es la principal función del sistema hidráulico en una aeronave?",
+      "opciones": {
+        "a": "Suministrar oxígeno a la cabina",
+        "b": "Controlar las superficies móviles como flaps y frenos",
+        "c": "Medir la presión de la cabina",
+        "d": "Alimentar el sistema de navegación"
+      },
+      "correcta": "b",
+      "justificacion": "Los sistemas hidráulicos operan elementos de control como frenos, flaps y tren de aterrizaje."
+    },
+    {
+      "id": "p3",
+      "pregunta": "¿Qué significa una carga de 2g en términos de fuerza gravitacional?",
+      "opciones": {
+        "a": "El doble del peso normal del cuerpo",
+        "b": "La mitad del peso normal del cuerpo",
+        "c": "Dos veces la velocidad terminal",
+        "d": "La aceleración es negativa"
+      },
+      "correcta": "a",
+      "justificacion": "2g indica que se está experimentando el doble de la aceleración debida a la gravedad."
+    },
+    {
+      "id": "p4",
+      "pregunta": "¿Qué tipo de flujo se caracteriza por trayectorias paralelas y sin mezcla entre capas?",
+      "opciones": {
+        "a": "Turbulento",
+        "b": "Laminado",
+        "c": "Compresible",
+        "d": "Irrotacional"
+      },
+      "correcta": "b",
+      "justificacion": "El flujo laminado es ordenado, con trayectorias paralelas sin mezcla."
+    },
+    {
+      "id": "p5",
+      "pregunta": "¿Qué dispositivo se utiliza para medir la velocidad del flujo en una tubería?",
+      "opciones": {
+        "a": "Manómetro",
+        "b": "Termómetro",
+        "c": "Venturímetro",
+        "d": "Barómetro"
+      },
+      "correcta": "c",
+      "justificacion": "El venturímetro mide la velocidad del flujo basándose en la diferencia de presión."
+    },
+    {
+      "id": "p6",
+      "pregunta": "¿Cuál es la ecuación de Bernoulli útil para analizar?",
+      "opciones": {
+        "a": "Energía térmica",
+        "b": "Energía mecánica en un fluido",
+        "c": "Energía nuclear",
+        "d": "Energía magnética"
+      },
+      "correcta": "b",
+      "justificacion": "Bernoulli relaciona presión, velocidad y altura como formas de energía mecánica."
+    },
+    {
+      "id": "p7",
+      "pregunta": "¿Qué fenómeno ocurre cuando la presión de un fluido cae por debajo de su presión de vapor?",
+      "opciones": {
+        "a": "Compresión",
+        "b": "Cavitación",
+        "c": "Evaporación",
+        "d": "Condensación"
+      },
+      "correcta": "b",
+      "justificacion": "La cavitación ocurre cuando se forman burbujas de vapor por presión baja en un fluido."
+    },
+    {
+      "id": "p8",
+      "pregunta": "¿Cuál es la relación entre presión estática y presión total en un tubo de Pitot?",
+      "opciones": {
+        "a": "Iguales",
+        "b": "La presión estática es mayor",
+        "c": "La presión total incluye la presión dinámica además de la estática",
+        "d": "No están relacionadas"
+      },
+      "correcta": "c",
+      "justificacion": "La presión total es la suma de la presión estática y dinámica."
+    },
+    {
+      "id": "p9",
+      "pregunta": "¿Qué define a un flujo compresible?",
+      "opciones": {
+        "a": "Densidad constante",
+        "b": "Densidad variable",
+        "c": "Velocidad nula",
+        "d": "Ausencia de presión"
+      },
+      "correcta": "b",
+      "justificacion": "En un flujo compresible la densidad cambia significativamente con la presión y temperatura."
+    },
+    {
+      "id": "p10",
+      "pregunta": "¿Qué significa el número de Reynolds?",
+      "opciones": {
+        "a": "Relación entre viscosidad y densidad",
+        "b": "Relación entre fuerzas inerciales y viscosas",
+        "c": "Relación entre presión y temperatura",
+        "d": "Relación entre velocidad y área"
+      },
+      "correcta": "b",
+      "justificacion": "El número de Reynolds mide el régimen del flujo según la relación entre fuerzas inerciales y viscosas."
+    }
+  ],
+  "Biomateriales I": [
+    {
+      "id": "p11",
+      "pregunta": "¿Cuál de los siguientes materiales es más utilizado en prótesis articulares?",
+      "opciones": {
+        "a": "Acero al carbono",
+        "b": "Polietileno de ultra alto peso molecular (UHMWPE)",
+        "c": "Vidrio templado",
+        "d": "Aluminio puro"
+      },
+      "correcta": "b",
+      "justificacion": "El UHMWPE es ampliamente utilizado por su baja fricción y alta biocompatibilidad."
+    },
+    {
+      "id": "p12",
+      "pregunta": "¿Qué propiedad debe tener un biomaterial para evitar reacciones inmunológicas?",
+      "opciones": {
+        "a": "Biodegradabilidad",
+        "b": "Conductividad térmica",
+        "c": "Biocompatibilidad",
+        "d": "Toxicidad"
+      },
+      "correcta": "c",
+      "justificacion": "La biocompatibilidad es fundamental para que un biomaterial no provoque rechazo."
+    },
+    {
+      "id": "p13",
+      "pregunta": "¿Qué característica presenta una aleación de Ti-6Al-4V en aplicaciones biomédicas?",
+      "opciones": {
+        "a": "Alta toxicidad",
+        "b": "Excelente resistencia a la corrosión y buena biocompatibilidad",
+        "c": "Baja resistencia mecánica",
+        "d": "Conductividad eléctrica elevada"
+      },
+      "correcta": "b",
+      "justificacion": "Ti-6Al-4V es popular por su resistencia, baja densidad y biocompatibilidad."
+    },
+    {
+      "id": "p14",
+      "pregunta": "¿Cuál es la principal desventaja de los materiales cerámicos en aplicaciones biomédicas?",
+      "opciones": {
+        "a": "Alta toxicidad",
+        "b": "Baja resistencia a la corrosión",
+        "c": "Fragilidad",
+        "d": "Conductividad térmica elevada"
+      },
+      "correcta": "c",
+      "justificacion": "Las cerámicas son frágiles y pueden romperse bajo cargas de impacto."
+    },
+    {
+      "id": "p15",
+      "pregunta": "¿Qué tipo de respuesta del cuerpo humano se desea minimizar con biomateriales?",
+      "opciones": {
+        "a": "Respuesta inmune",
+        "b": "Cicatrización",
+        "c": "Angiogénesis",
+        "d": "Proliferación celular"
+      },
+      "correcta": "a",
+      "justificacion": "Una respuesta inmune fuerte puede provocar rechazo del implante."
+    },
+    {
+      "id": "p16",
+      "pregunta": "¿Qué tipo de material se emplea en suturas absorbibles?",
+      "opciones": {
+        "a": "Titanio",
+        "b": "PLA o PGA",
+        "c": "Silicona",
+        "d": "UHMWPE"
+      },
+      "correcta": "b",
+      "justificacion": "El ácido poliláctico (PLA) y el ácido poliglicólico (PGA) son biodegradables y usados en suturas absorbibles."
+    },
+    {
+      "id": "p17",
+      "pregunta": "¿Cuál de estos materiales se utiliza para recubrimientos bioactivos?",
+      "opciones": {
+        "a": "Hidroxiapatita",
+        "b": "Polietileno",
+        "c": "Oro",
+        "d": "Níquel"
+      },
+      "correcta": "a",
+      "justificacion": "La hidroxiapatita es similar al hueso y se emplea en recubrimientos que mejoran la integración ósea."
+    },
+    {
+      "id": "p18",
+      "pregunta": "¿Qué propiedad tiene el Nitinol que lo hace útil en stents?",
+      "opciones": {
+        "a": "Alta conductividad térmica",
+        "b": "Baja densidad",
+        "c": "Memoria de forma",
+        "d": "Alta dureza"
+      },
+      "correcta": "c",
+      "justificacion": "El Nitinol recupera su forma original con la temperatura, útil en aplicaciones como stents."
+    },
+    {
+      "id": "p19",
+      "pregunta": "¿Qué función cumplen las superficies texturizadas en implantes?",
+      "opciones": {
+        "a": "Reducir el costo",
+        "b": "Evitar el movimiento del implante",
+        "c": "Aumentar la conductividad",
+        "d": "Disminuir la corrosión"
+      },
+      "correcta": "b",
+      "justificacion": "Las superficies texturizadas mejoran la integración con tejidos evitando el desplazamiento del implante."
+    },
+    {
+      "id": "p20",
+      "pregunta": "¿Qué ensayo se utiliza para evaluar la resistencia a la fatiga de un biomaterial?",
+      "opciones": {
+        "a": "Ensayo de compresión simple",
+        "b": "Ensayo de tracción estática",
+        "c": "Ensayo de flexión cíclica",
+        "d": "Ensayo de dureza"
+      },
+      "correcta": "c",
+      "justificacion": "La flexión cíclica permite estudiar cómo resiste el material esfuerzos repetitivos a largo plazo."
+    }
+  ],
+  "Fisiología I": [
+    {
+      "id": "p1",
+      "pregunta": "¿Qué estudia la fisiología?",
+      "opciones": {
+        "a": "El funcionamiento de los organismos vivos",
+        "b": "La estructura de los huesos",
+        "c": "La clasificación de plantas"
+      },
+      "correcta": "a",
+      "justificacion": "La fisiología estudia cómo funcionan los órganos y sistemas en los seres vivos."
+    },
+    {
+      "id": "p2",
+      "pregunta": "¿Cuál es la función principal del sistema respiratorio?",
+      "opciones": {
+        "a": "Intercambio de gases",
+        "b": "Digestión de alimentos",
+        "c": "Movimiento muscular"
+      },
+      "correcta": "a",
+      "justificacion": "El sistema respiratorio permite el intercambio de oxígeno y dióxido de carbono."
+    },
+    {
+      "id": "p3",
+      "pregunta": "¿Qué órgano bombea la sangre en el cuerpo?",
+      "opciones": {
+        "a": "El corazón",
+        "b": "El hígado",
+        "c": "Los pulmones"
+      },
+      "correcta": "a",
+      "justificacion": "El corazón es el órgano responsable de bombear la sangre por el cuerpo."
+    }
+  ]
+}
