@@ -1,0 +1,332 @@
+{
+  "OPS II": [
+    {
+      "id": "p1",
+      "pregunta": "¿Cuál de las siguientes NO es una etapa de la enfermedad según el documento?",
+      "opciones": {
+        "a": "Periodo de incubación o periodo pre-patogénico",
+        "b": "Periodo subclínico",
+        "c": "Periodo de latencia",
+        "d": "Periodo clínico"
+      },
+      "correcta": "c",
+      "justificacion": "El periodo de latencia no es mencionado como una etapa de la enfermedad en el texto."
+    },
+    {
+      "id": "p2",
+      "pregunta": "¿Qué nivel de prevención tiene como objetivo detener el avance de la enfermedad?",
+      "opciones": {
+        "a": "Prevención Primaria",
+        "b": "Prevención Secundaria",
+        "c": "Prevención Terciaria",
+        "d": "Prevención Cuaternaria"
+      },
+      "correcta": "b",
+      "justificacion": "La prevención secundaria busca detectar y detener el avance temprano de la enfermedad."
+    },
+    {
+      "id": "p3",
+      "pregunta": "¿Cuál de las siguientes acciones pertenece a la Prevención Primaria?",
+      "opciones": {
+        "a": "Rehabilitación",
+        "b": "Educación para la salud",
+        "c": "Examen de laboratorio",
+        "d": "Terapia farmacológica"
+      },
+      "correcta": "b",
+      "justificacion": "La educación para la salud es una acción típica de la prevención primaria."
+    },
+    {
+      "id": "p4",
+      "pregunta": "¿Qué se entiende por 'Educación para la salud'?",
+      "opciones": {
+        "a": "Difundir la importancia de cuidar la salud y conservarla",
+        "b": "Tratar al paciente como un juego de dientes",
+        "c": "Someterse a controles médicos periódicos",
+        "d": "Promover medicamentos"
+      },
+      "correcta": "a",
+      "justificacion": "La educación para la salud implica difundir conocimientos para cuidar y conservar la salud."
+    },
+    {
+      "id": "p5",
+      "pregunta": "¿Cuál es una característica del envejecimiento, según el texto?",
+      "opciones": {
+        "a": "Conduce necesariamente a la incapacidad",
+        "b": "Empieza en el momento en el que se detiene el crecimiento",
+        "c": "Es un término exclusivamente fisiológico",
+        "d": "Es reversible"
+      },
+      "correcta": "b",
+      "justificacion": "El envejecimiento comienza cuando se detiene el crecimiento."
+    },
+    {
+      "id": "p6",
+      "pregunta": "¿Cuál de las siguientes NO es una enfermedad mencionada como propia de la ancianidad?",
+      "opciones": {
+        "a": "Diabetes mellitus",
+        "b": "Artritis reumatoide",
+        "c": "Gripe",
+        "d": "Hipertensión"
+      },
+      "correcta": "c",
+      "justificacion": "La gripe no se menciona como una enfermedad propia de la ancianidad."
+    },
+    {
+      "id": "p7",
+      "pregunta": "¿Qué estudia la Gerontología?",
+      "opciones": {
+        "a": "La atención integral del adulto mayor en la salud y enfermedad",
+        "b": "El proceso de envejecimiento en todas sus dimensiones",
+        "c": "Las Naciones Unidas",
+        "d": "Medicina pediátrica"
+      },
+      "correcta": "b",
+      "justificacion": "La gerontología estudia el envejecimiento en sus múltiples aspectos."
+    },
+    {
+      "id": "p8",
+      "pregunta": "¿Cuál es el objetivo principal de la OMS?",
+      "opciones": {
+        "a": "Proveer ayuda humanitaria a niños y madres",
+        "b": "Mantener la paz y seguridad mundial",
+        "c": "Preservar la salud en las naciones",
+        "d": "Desarrollar vacunas"
+      },
+      "correcta": "c",
+      "justificacion": "La OMS tiene como misión preservar y mejorar la salud a nivel mundial."
+    },
+    {
+      "id": "p9",
+      "pregunta": "¿Qué es un 'significado' en la comunicación?",
+      "opciones": {
+        "a": "Lo que oímos o vemos",
+        "b": "La idea que produce en nuestro cerebro",
+        "c": "Una imagen o figura que representa un concepto",
+        "d": "El canal de comunicación"
+      },
+      "correcta": "b",
+      "justificacion": "El significado es la idea que el receptor construye en su mente."
+    },
+    {
+      "id": "p10",
+      "pregunta": "¿Qué es un código en la comunicación?",
+      "opciones": {
+        "a": "Un sistema de signos y reglas que permite formular un mensaje",
+        "b": "La información que el emisor envía al receptor",
+        "c": "Un obstáculo que distorsiona el mensaje",
+        "d": "El receptor del mensaje"
+      },
+      "correcta": "a",
+      "justificacion": "El código es el sistema de signos y reglas para construir mensajes."
+    }
+  ],
+  "Biomateriales I": [
+    {
+      "id": "p11",
+      "pregunta": "¿Cuál de los siguientes NO es un componente del lenguaje?",
+      "opciones": {
+        "a": "Lengua",
+        "b": "Habla",
+        "c": "Jerga",
+        "d": "Símbolo"
+      },
+      "correcta": "c",
+      "justificacion": "La jerga no es mencionada como componente del lenguaje en el texto."
+    },
+    {
+      "id": "p12",
+      "pregunta": "¿Qué es el 'mensaje' en la comunicación?",
+      "opciones": {
+        "a": "El emisor",
+        "b": "El receptor",
+        "c": "La información que se envía",
+        "d": "El canal"
+      },
+      "correcta": "c",
+      "justificacion": "El mensaje es la información transmitida del emisor al receptor."
+    },
+    {
+      "id": "p13",
+      "pregunta": "¿Qué es el 'feedback' en la teoría de la comunicación?",
+      "opciones": {
+        "a": "Un monólogo",
+        "b": "Un diálogo",
+        "c": "Un proceso de retroalimentación",
+        "d": "Una interrupción"
+      },
+      "correcta": "c",
+      "justificacion": "El feedback es el proceso donde el receptor responde al emisor."
+    },
+    {
+      "id": "p14",
+      "pregunta": "¿Cuál es un defecto común del emisor en la comunicación oral?",
+      "opciones": {
+        "a": "No prestar atención",
+        "b": "No organizar sus pensamientos",
+        "c": "Pensar en su respuesta en lugar de escuchar",
+        "d": "Hablar muy rápido"
+      },
+      "correcta": "b",
+      "justificacion": "No organizar los pensamientos afecta la claridad del mensaje."
+    },
+    {
+      "id": "p15",
+      "pregunta": "¿Cuál es el objetivo principal del modelo de educación que pone énfasis en los CONTENIDOS?",
+      "opciones": {
+        "a": "Que el alumno aprenda",
+        "b": "Que el alumno haga",
+        "c": "Que el alumno piense y transforme su realidad",
+        "d": "Que el alumno memorice"
+      },
+      "correcta": "a",
+      "justificacion": "Este modelo busca que el alumno adquiera conocimientos."
+    },
+    {
+      "id": "p16",
+      "pregunta": "¿Cuál de las siguientes NO es una característica del educando en el modelo tradicional de educación?",
+      "opciones": {
+        "a": "Es el que educa",
+        "b": "Es el que escucha",
+        "c": "Es el objeto del proceso",
+        "d": "Es receptor pasivo"
+      },
+      "correcta": "a",
+      "justificacion": "En el modelo tradicional, el educando no educa sino que recibe educación."
+    },
+    {
+      "id": "p17",
+      "pregunta": "¿Cuál es un aporte de los materiales audiovisuales en la educación?",
+      "opciones": {
+        "a": "Aumentan las respuestas verbales sin significado",
+        "b": "Reducen las respuestas verbales sin significado",
+        "c": "Disminuyen el interés de los estudiantes",
+        "d": "Distracción para los estudiantes"
+      },
+      "correcta": "b",
+      "justificacion": "Los materiales audiovisuales ayudan a centrar la atención en respuestas con sentido."
+    },
+    {
+      "id": "p18",
+      "pregunta": "¿Cuál de los siguientes NO es un material visual educativo?",
+      "opciones": {
+        "a": "Afiche",
+        "b": "Historieta",
+        "c": "Radio",
+        "d": "Cartel"
+      },
+      "correcta": "c",
+      "justificacion": "La radio es un material sonoro, no visual."
+    },
+    {
+      "id": "p19",
+      "pregunta": "¿Cuál es una característica del afiche?",
+      "opciones": {
+        "a": "Puede tener varios temas",
+        "b": "Tiene límite de tiempo",
+        "c": "El texto no es importante",
+        "d": "No usa imágenes"
+      },
+      "correcta": "b",
+      "justificacion": "El afiche está pensado para comunicar un mensaje en un tiempo determinado."
+    },
+    {
+      "id": "p20",
+      "pregunta": "¿Qué es una entrevista?",
+      "opciones": {
+        "a": "Una conversación con preguntas y respuestas",
+        "b": "Un sistema de códigos percibidos por el órgano visual",
+        "c": "Una difusión a distancia",
+        "d": "Un escrito formal"
+      },
+      "correcta": "a",
+      "justificacion": "La entrevista es una interacción con preguntas y respuestas."
+    }
+  ],
+  "Fisiología I": [
+    {
+      "id": "p21",
+      "pregunta": "¿Cuál de los siguientes NO es un tipo de pregunta en una entrevista?",
+      "opciones": {
+        "a": "Análisis",
+        "b": "Acción",
+        "c": "Reflexión",
+        "d": "Cerrada"
+      },
+      "correcta": "c",
+      "justificacion": "La reflexión no se menciona como tipo de pregunta en el texto."
+    },
+    {
+      "id": "p22",
+      "pregunta": "¿Cuál es una característica de las preguntas cerradas en una entrevista?",
+      "opciones": {
+        "a": "Comienzan por 'cómo' o 'por qué'",
+        "b": "Permiten al entrevistado dar su opinión",
+        "c": "Se responden con un 'sí' o 'no'",
+        "d": "Son abiertas"
+      },
+      "correcta": "c",
+      "justificacion": "Las preguntas cerradas tienen respuestas breves, usualmente sí o no."
+    },
+    {
+      "id": "p23",
+      "pregunta": "¿Cuál de los siguientes NO es un tipo de entrevistador mencionado en el texto?",
+      "opciones": {
+        "a": "Entrevistador culto",
+        "b": "Entrevistador metralleta",
+        "c": "Entrevistador empático",
+        "d": "Entrevistador neutral"
+      },
+      "correcta": "c",
+      "justificacion": "El entrevistador empático no es mencionado en el texto."
+    },
+    {
+      "id": "p24",
+      "pregunta": "¿Qué caracteriza a la radio como medio de comunicación?",
+      "opciones": {
+        "a": "No hay distancia entre el emisor y el receptor",
+        "b": "Los signos son de percepción visual",
+        "c": "Es una difusión a distancia",
+        "d": "Es un medio escrito"
+      },
+      "correcta": "c",
+      "justificacion": "La radio transmite mensajes a distancia mediante señales sonoras."
+    },
+    {
+      "id": "p25",
+      "pregunta": "¿Cuál de las siguientes NO es una forma de propaganda gráfica callejera?",
+      "opciones": {
+        "a": "Volantes",
+        "b": "Mariposas",
+        "c": "Telegrama",
+        "d": "Carteles"
+      },
+      "correcta": "c",
+      "justificacion": "El telegrama no es un medio gráfico callejero."
+    },
+    {
+      "id": "p26",
+      "pregunta": "¿Cuál de los siguientes es un material educativo sonoro?",
+      "opciones": {
+        "a": "Afiches",
+        "b": "Láminas",
+        "c": "Ninguno de los anteriores",
+        "d": "Audiocassette"
+      },
+      "correcta": "c",
+      "justificacion": "En el texto ninguno de los mencionados es material sonoro educativo."
+    },
+    {
+      "id": "p27",
+      "pregunta": "¿Qué tipo de inmunidad se adquiere con el tiempo?",
+      "opciones": {
+        "a": "Inmunidad innata o inespecífica",
+        "b": "Inmunidad específica o adaptativa",
+        "c": "Inmunidad pasiva",
+        "d": "Inmunidad artificial"
+      },
+      "correcta": "b",
+      "justificacion": "La inmunidad adaptativa se adquiere tras exposición y memoria inmunológica."
+    }
+  ]
+}
