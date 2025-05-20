@@ -1,10 +1,10 @@
-document.getElementById("cuestionario").addEventListener("submit", function(event) {
+document.getElementById("cuestionario").addEventListener("submit", function (event) {
   event.preventDefault();
 
   const respuestasCorrectas = {
     p1: { correcta: "c", texto: "París", justificacion: "París es la capital de Francia." },
     p2: { correcta: "b", texto: "4", justificacion: "2 + 2 es igual a 4." },
-    p3: { correcta: "a", texto: "Marte", justificacion: "Marte es conocido como el planeta rojo por su color característico." }
+    p3: { correcta: "a", texto: "Marte", justificacion: "Marte es conocido como el planeta rojo por su color característico." },
   };
 
   let puntaje = 0;
@@ -13,6 +13,7 @@ document.getElementById("cuestionario").addEventListener("submit", function(even
   for (let pregunta in respuestasCorrectas) {
     let respuesta = document.querySelector(`input[name="${pregunta}"]:checked`);
     let feedback = document.getElementById(`feedback${pregunta.substring(1)}`);
+
     if (respuesta) {
       if (respuesta.value === respuestasCorrectas[pregunta].correcta) {
         puntaje++;
