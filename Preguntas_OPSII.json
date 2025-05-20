@@ -1,0 +1,21 @@
+[
+  {
+    "pregunta": "¿Cuál de las siguientes NO es una etapa de la enfermedad según el documento?",
+    "opciones": [
+      "Periodo de incubación o periodo pre-patogénico",
+      "Periodo subclínico",
+      "Periodo de latencia"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "¿Qué nivel de prevención tiene como objetivo detener el avance de la enfermedad?",
+    "opciones": [
+      "Prevención Primaria",
+      "Prevención Secundaria",
+      "Prevención Terciaria"
+    ],
+    "respuesta": 1
+  }
+  // ... más preguntas ...
+]
