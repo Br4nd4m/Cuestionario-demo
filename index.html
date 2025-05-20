@@ -2,13 +2,25 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cuestionario: OPS II</title>
-  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuestionarios por Materia</title>
+  <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-  <h1>Cuestionario: OPS II</h1>
-  <div id="quiz-container">Cargando preguntas...</div>
-  <script src="./script.js"></script>
+  <div id="materias-container">
+    <h1>Seleccioná una materia</h1>
+    <button onclick="mostrarMateria('OPS II')">OPS II</button>
+    <button onclick="mostrarMateria('Biomateriales I')">Biomateriales I</button>
+    <button onclick="mostrarMateria('Fisiología I')">Fisiología I</button>
+  </div>
+
+  <div id="cuestionario-container" style="display: none;">
+    <h2 id="materia-titulo"></h2>
+    <button onclick="volverAlMenu()" class="volver-btn">Volver al menú principal</button>
+    <form id="cuestionario"></form>
+    <div class="resultado" id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
