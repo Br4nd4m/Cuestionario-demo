@@ -1,45 +1,109 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const contenedor = document.getElementById("quiz-container");
+const URL_JSON = "Preguntas_prueba.json";
 
-  fetch("./Preguntas_prueba.json")
-    .then(response => {
-      if (!response.ok) {
-        throw new Error("No se pudo cargar el archivo JSON.");
-      }
-      return response.json();
+function mostrarMateria(materia) {
+  document.getElementById("materias-container").style.display = "none";
+  document.getElementById("cuestionario-container").style.display = "block";
+  document.getElementById("materia-titulo").innerText = materia;
+
+  fetch(URL_JSON)
+    .then(res => {
+      if (!res.ok) throw new Error("Error cargando preguntas");
+      return res.json();
     })
     .then(data => {
-      const preguntas = data["OPS II"];
-      contenedor.innerHTML = ""; // Limpiar "Cargando..."
-
-      preguntas.forEach((item, index) => {
-        const div = document.createElement("div");
-        div.className = "question";
-        div.innerHTML = `<p><strong>${index + 1}.</strong> ${item.pregunta}</p>`;
-
-        const opcionesDiv = document.createElement("div");
-        opcionesDiv.className = "options";
-
-        for (const [key, texto] of Object.entries(item.opciones)) {
-          const btn = document.createElement("button");
-          btn.textContent = `${key}) ${texto}`;
-          btn.addEventListener("click", () => {
-            if (key === item.correcta) {
-              btn.classList.add("correct");
-              alert("✔️ Correcto. " + item.justificacion);
-            } else {
-              btn.classList.add("incorrect");
-              alert("❌ Incorrecto. " + item.justificacion);
-            }
-          });
-          opcionesDiv.appendChild(btn);
-        }
-
-        div.appendChild(opcionesDiv);
-        contenedor.appendChild(div);
-      });
+      if (!data[materia]) {
+        alert("No hay preguntas para esta materia.");
+        volverAlMenu();
+        return;
+      }
+      crearFormularioPreguntas(data[materia]);
     })
-    .catch(error => {
-      contenedor.innerHTML = `<p style="color:red;">Error al cargar las preguntas: ${error.message}</p>`;
+    .catch(err => {
+      alert("No se pudieron cargar las preguntas: " + err.message);
+      volverAlMenu();
     });
+}
+
+function crearFormularioPreguntas(preguntas) {
+  const form = document.getElementById("cuestionario");
+  form.innerHTML = "";
+
+  preguntas.forEach(({id, pregunta, opciones}) => {
+    const div = document.createElement("div");
+    div.classList.add("pregunta");
+    div.id = id;
+
+    const p = document.createElement("p");
+    p.textContent = pregunta;
+    div.appendChild(p);
+
+    for (const [key, texto] of Object.entries(opciones)) {
+      const label = document.createElement("label");
+      label.innerHTML = `<input type="radio" name="${id}" value="${key}"/> ${texto}`;
+      div.appendChild(label);
+      div.appendChild(document.createElement("br"));
+    }
+
+    const feedback = document.createElement("div");
+    feedback.classList.add("feedback");
+    feedback.id = `feedback${id.substring(1)}`;
+    div.appendChild(feedback);
+
+    form.appendChild(div);
+  });
+
+  const btn = document.createElement("button");
+  btn.type = "submit";
+  btn.textContent = "Enviar respuestas";
+  form.appendChild(btn);
+
+  window.respuestasCorrectas = {};
+  preguntas.forEach(({id, correcta, justificacion, opciones}) => {
+    window.respuestasCorrectas[id] = {
+      correcta,
+      justificacion,
+      texto: opciones[correcta]
+    };
+  });
+
+  document.getElementById("resultado").innerText = "";
+}
+
+function resetCuestionario() {
+  const form = document.getElementById("cuestionario");
+  form.reset();
+  document.getElementById("resultado").innerText = "";
+  document.querySelectorAll(".feedback").forEach(fb => fb.innerHTML = "");
+}
+
+function volverAlMenu() {
+  document.getElementById("materias-container").style.display = "block";
+  document.getElementById("cuestionario-container").style.display = "none";
+  resetCuestionario();
+}
+
+document.getElementById("cuestionario").addEventListener("submit", function(event) {
+  event.preventDefault();
+  if (!window.respuestasCorrectas) return;
+
+  let puntaje = 0;
+  const total = Object.keys(window.respuestasCorrectas).length;
+
+  for (const pregunta in window.respuestasCorrectas) {
+    const respuesta = document.querySelector(`input[name="${pregunta}"]:checked`);
+    const feedback = document.getElementById(`feedback${pregunta.substring(1)}`);
+
+    if (respuesta) {
+      if (respuesta.value === window.respuestasCorrectas[pregunta].correcta) {
+        puntaje++;
+        feedback.innerHTML = "<span class='correcto'>¡Correcto!</span>";
+      } else {
+        feedback.innerHTML = `<span class='incorrecto'>Incorrecto.</span> Respuesta correcta: <strong>${window.respuestasCorrectas[pregunta].texto}</strong>. ${window.respuestasCorrectas[pregunta].justificacion}`;
+      }
+    } else {
+      feedback.innerHTML = "<span class='incorrecto'>No se seleccionó una respuesta.</span>";
+    }
+  }
+
+  document.getElementById("resultado").innerText = `Obtuviste ${puntaje} de ${total} puntos.`;
 });
