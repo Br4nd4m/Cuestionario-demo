@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const contenedor = document.getElementById("quiz-container");
 
-  fetch("./preguntas.json")
+  fetch("./Preguntas_prueba.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("No se pudo cargar el archivo JSON.");
