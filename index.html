@@ -1,30 +1,43 @@
-<h1>Cuestionario de ejemplo</h1>
-<form id="cuestionario">
-  <div class="pregunta" id="pregunta1">
-    <p>1. ¿Cuál es la capital de Francia?</p>
-    <label><input type="radio" name="p1" value="a"> Berlín</label><br>
-    <label><input type="radio" name="p1" value="b"> Madrid</label><br>
-    <label><input type="radio" name="p1" value="c"> París</label>
-    <div class="feedback" id="feedback1"></div>
-  </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuestionario Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Cuestionario de ejemplo</h1>
+  <form id="cuestionario">
+    <div class="pregunta" id="pregunta1">
+      <p>1. ¿Cuál es la capital de Francia?</p>
+      <label><input type="radio" name="p1" value="a" /> Berlín</label><br />
+      <label><input type="radio" name="p1" value="b" /> Madrid</label><br />
+      <label><input type="radio" name="p1" value="c" /> París</label>
+      <div class="feedback" id="feedback1"></div>
+    </div>
 
-  <div class="pregunta" id="pregunta2">
-    <p>2. ¿Cuánto es 2 + 2?</p>
-    <label><input type="radio" name="p2" value="a"> 3</label><br>
-    <label><input type="radio" name="p2" value="b"> 4</label><br>
-    <label><input type="radio" name="p2" value="c"> 5</label>
-    <div class="feedback" id="feedback2"></div>
-  </div>
+    <div class="pregunta" id="pregunta2">
+      <p>2. ¿Cuánto es 2 + 2?</p>
+      <label><input type="radio" name="p2" value="a" /> 3</label><br />
+      <label><input type="radio" name="p2" value="b" /> 4</label><br />
+      <label><input type="radio" name="p2" value="c" /> 5</label>
+      <div class="feedback" id="feedback2"></div>
+    </div>
 
-  <div class="pregunta" id="pregunta3">
-    <p>3. ¿Qué planeta es conocido como el planeta rojo?</p>
-    <label><input type="radio" name="p3" value="a"> Marte</label><br>
-    <label><input type="radio" name="p3" value="b"> Venus</label><br>
-    <label><input type="radio" name="p3" value="c"> Júpiter</label>
-    <div class="feedback" id="feedback3"></div>
-  </div>
+    <div class="pregunta" id="pregunta3">
+      <p>3. ¿Qué planeta es conocido como el planeta rojo?</p>
+      <label><input type="radio" name="p3" value="a" /> Marte</label><br />
+      <label><input type="radio" name="p3" value="b" /> Venus</label><br />
+      <label><input type="radio" name="p3" value="c" /> Júpiter</label>
+      <div class="feedback" id="feedback3"></div>
+    </div>
 
-  <button type="submit">Enviar respuestas</button>
-</form>
+    <button type="submit">Enviar respuestas</button>
+  </form>
 
-<div class="resultado" id="resultado"></div>
+  <div class="resultado" id="resultado"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
